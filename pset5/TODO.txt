@@ -1,0 +1,40 @@
+General:
+
+Actually make it Mario themed:
+	- Images
+	- Colours
+	- Fonts
+	- Animations
+
+Host it on github pages
+
+
+Nav:
+
+The close button looks off
+
+
+Homepage:
+
+Sort out the theme
+Spacing and responsiveness
+
+
+
+About:
+
+Consider making the pyramid a scalable image
+Otherwise, ensure responsiveness for bigger screens
+Fix up interests part
+
+
+Gallery:
+
+Implement a bootstrap responsive slider
+
+
+Contact:
+
+Center the pyramid for small screen sizes
+Message when users send message
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- BOOTSTRAP -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FONT AWESOME FOR ICONS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- CUSTOM CSS -->
+    <link href="main_copy.css" rel="stylesheet" type="text/css">
+    <!-- CSS MEDIA QUERIES -->
+    <link href="mediaQueries.css" rel="stylesheet" type="text/css">
+
+    <title>Pics</title>
+
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="A responsive website that tells you, the world, a little bit about me!">
+</head>
+
+<body class="full_page">
+    <header>
+        <div class="group" id="list_menu">
+            <a class="logo_link" href="index.html"><img class="nav_logo" src="images/cs50.png"></a>
+            <nav class="navbar">
+                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="gallery.html">Pics</a>
+                <a class="nav-link" href="contact.html">Contact</a>
+            </nav>
+        </div>
+
+        <div class="burger_menu">
+            <div class="group" id="collapsed_menu">
+                <div class="fade_group">
+                    <a class="logo_link" href="index.html"><img class="nav_logo" src="images/cs50.png"></a>
+                </div>
+                <nav class="burger_nav" id="menu">
+                    <ul class="menu_lines">
+                        <li class="menu_line_item"><span id="close_menu">Close</span></li>
+                        <li class="menu_line_item"><a class="burger_menu_line" href="index.html">Home</a></li>
+                        <li class="menu_line_item"><a class="burger_menu_line" href="about.html">About</a></li>
+                        <li class="menu_line_item"><a class="burger_menu_line" href="gallery.html">Pics</a></li>
+                        <li class="menu_line_item"><a class="burger_menu_line" href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="gallery_container">
+        <section class="gallery_cover">
+            <div class="fade_group">
+                <div id="interests_carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#interests_carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#interests_carousel" data-slide-to="1"></li>
+                        <li data-target="#interests_carousel" data-slide-to="2"></li>
+                        <li data-target="#interests_carousel" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/audeze.jpeg" class="d-block w-100" alt="Headphones" height="500"
+                                width="700">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Audeze LCD2C</h5>
+                                <p>My favourite pair of headphones at the moment.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/guitar.jpeg" class="d-block w-100" alt="Guitar" height="500" width="700">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>D'Angelico Excel SS</h5>
+                                <p>Learning jazz on this.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/gym.jpeg" class="d-block w-100" alt="Gym" height="500" width="700">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Gym</h5>
+                                <p>Where I spend a significant portion of my week.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/tech.jpeg" class="d-block w-100" alt="AI" height="500" width="700">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>AI</h5>
+                                <p>The next bi thing.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#interests_carousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#interests_carousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

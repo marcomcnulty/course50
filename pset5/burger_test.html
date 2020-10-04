@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- FONT AWESOME FOR ICONS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <!-- CUSTOM CSS -->
+    <link href="burger.css" rel="stylesheet" type="text/css">
+
+    <title>CS50 - PSET 5</title>
+
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="A responsive website that tells you, the world, a little bit about me!">
+</head>
+
+<body class="homepage">
+
+    <div class="container">
+        <!-- This checkbox will give us the toggle behavior, it will be hidden, but functional -->
+        <!-- <input id="toggle" type="checkbox"> -->
+        <!-- <div class="clicker"></div> -->
+
+        <!-- IMPORTANT: Any element that we want to modify when the checkbox state changes go here, being "sibling" of the checkbox element -->
+
+        <!-- This label is tied to the checkbox, and it will contain the toggle "buttons" -->
+        <!-- <label class="toggle-container" for="toggle"> -->
+        <!-- If menu is open, it will be the "X" icon, otherwise just a clickable area behind the hamburger menu icon -->
+        <!-- <span class="button button-toggle"></span>
+        </label> -->
+        <div id="clicker">
+            <!-- The nav menu -->
+            <nav class="nav">
+                <a class="nav-item" href="#">Dashboard</a>
+                <a class="nav-item" href="#">History</a>
+                <a class="nav-item" href="#">Statistics</a>
+                <a class="nav-item" href="#">Settings</a>
+            </nav>
+        </div>
+        <!-- <div class="clicker">Click</div> -->
+
+
+    </div>
+
+
+    <!-- <div class="container container_box">
+        <section class="cover">
+            <h1 class="cover_heading">Marco M<sup>c</sup>Nulty</h1>
+            <p class="blurb">"<em>Create a simple homepage that introduces yourself,
+                    your favorite hobby or extracurricular, or
+                    anything else of interest to you."</em></p>
+            <a href="about.html" class="btn btn-lg btn-secondary" id="home_button">LET'S GO</a>
+        </section>
+    </div>
+    <footer>
+        <p><em>&copy; Marco McNulty 2019</em></p>
+    </footer> -->
+
+    <script>
+        var clickBtn = document.getElementById('clicker');
+        var menu = document.querySelector('nav');
+        clickBtn.onclick = function () {
+            menu.classList.toggle('open');
+        }
+    </script>
+
+</body>
+
+</html>

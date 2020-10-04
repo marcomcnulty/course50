@@ -1,0 +1,110 @@
+/* SMALL TABLET TO BIG TABLET FROM 1501 TO 3000px */
+@media only screen and (max-width: 3000px) {
+    header { padding-left: 50px; padding-right: 50px; }
+}
+
+/* DEVICES FROM 992px TO 1500px */
+@media only screen and (max-width: 1500px) {
+    header { padding-left: 0; padding-right: 0; }
+}
+
+@media only screen and (max-width: 1240px) {
+    .about_general_list {
+        font-size: 100%;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 1130px) {
+    .about_general_list {
+        font-size: 95%;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .about_general_list {
+        font-size: 85%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .contact_title { font-size: 275%; }
+    .contact_form { width: 92%; }
+}
+
+@media only screen and (max-width: 970px) {
+    .about_general_title { font-size: 250%; }
+    .about_general_list { font-size: 75%; line-height: 25px; }
+}
+
+@media only screen and (max-width: 900px) {
+    .meInfo { font-size: 80%; }
+}
+
+@media only screen and (max-width: 860px) {
+    .cover_heading { font-size: 500%; }
+    .about_general_title { font-size: 245%; }
+    .about_general_list { font-size: 70%; }
+}
+
+/* DEVICES FROM 601px TO  800px */
+@media only screen and (max-width: 800px) {
+    #list_menu { display: none; }
+    .burger_menu { display: block; }
+    .about_general_title { font-size: 235%; }
+    .about_general_list { font-size: 65%; }
+    .cover_heading { padding-left: 50px; padding-right: 50px; }
+    .contact_title { font-size: 250%; }
+}
+
+@media only screen and (max-width: 768px) {
+    .meInfo { height: 100vh; }
+    .contact_title { margin-bottom: 50px; }
+
+}
+
+@media only screen and (max-width: 750px) {
+    .about_general_title { font-size: 210%; }
+    .about_general_list { font-size: 60%; }
+}
+
+/* DEVICES FROM 481px to 600px */
+@media only screen and (max-width: 690px) {
+    .blurb { margin-left: 10px; margin-right: 10px; }
+    .about_general_title { font-size: 200%; }
+    .about_general_list { font-size: 55%; line-height: 20px; }
+}
+
+@media only screen and (max-width: 644px) {
+    .open { width: 40%; }
+    .about_general_list { font-size: 50%; line-height: 15px; font-weight: bold; }
+    .blurb { font-size: 90%; }
+}
+
+@media only screen and (max-width: 575px) {
+    header { height: 15%; }
+    .container_box { height: 85%; }
+    .open a { font-size: 90%; }
+    .about_general_title { font-size: 150%; }
+    .about_general_list { font-size: 45%; }
+    .contact_title { margin-bottom: 70px; }
+}
+
+@media only screen and (max-width: 525px) {
+    .about_general_list { font-size: 40%; }
+    .contact_title { font-size: 250%; padding-left: 10px; padding-right: 10px; }
+}
+
+/* DEVICES FROM 0px TO 480px */
+@media only screen and (max-width: 480px) {
+    .cover_heading { font-size: 425%; margin-right: 20px; padding-bottom: 15px; }
+    .blurb {
+        font-size: 75%;
+        margin-left: 10px;
+        margin-right: 45px;
+        margin-bottom: 55px;
+        margin-top: 0px; }
+    .about_general_list { font-size: 34%; }
+    .contact_title { font-size: 200%; margin-top: 100px; }
+
+}

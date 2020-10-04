@@ -1,0 +1,167 @@
+/*---------------------------------------------*/
+/* GENERAL SETUP */
+/*---------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/*---------------------------------------------*/
+/* REUSABLE COMPONENTS */
+/*---------------------------------------------*/
+
+section {
+    padding: 80px 0;
+}
+
+/* HEADINGS */
+
+
+
+/* LINKS */
+a:link,
+a:visited {
+    color: #333;
+    text-decoration: none;
+    border-bottom: 2px solid #333;
+}
+
+a:hover,
+a:active {
+    border-bottom: 2px solid transparent;
+}
+
+
+/*---------------------------------------------*/
+/* HEADER */
+/*---------------------------------------------*/
+
+.nav_logo {
+    float: left;
+    width: auto;
+    height: 50px;
+    margin: 20px;
+}
+
+nav {
+    float: right;
+}
+
+.burger_menu {
+    float: right;
+    display: none;
+    margin: 25px;
+}
+
+.burger_menu:hover {
+    cursor: pointer;
+}
+
+.burger_menu_line {
+    width: 48px;
+    height: 5px;
+    background: black;
+    border-radius: 2px;
+    margin: 6px;
+}
+
+.clicked .menu_lines {
+    display: none;
+}
+
+.clicked .menu_close {
+    visibility: visible;
+    margin: 0;
+}
+
+
+
+.menu_close {
+    visibility: hidden;
+}
+
+
+
+/*---------------------------------------------*/
+/* HOME BODY */
+/*---------------------------------------------*/
+
+.homepage {
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.container_box {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.cover {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    /* padding-top: 20px; */
+}
+
+h1 {
+    font-weight: 200;
+    margin-bottom: 20px;
+    font-size: 600%;
+    word-spacing: 4px;
+    letter-spacing: 4px;
+}
+
+.blurb {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    max-width: 800px;
+    text-align: center;
+}
+
+#home_button {
+    background-color: #333;
+    color: white;
+    margin-bottom: 50px;
+}
+
+
+/*---------------------------------------------*/
+/* FOOTER */
+/*---------------------------------------------*/
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* margin-top: 200px; */
+}
+
+footer p {
+    text-align: right;
+    margin-right: 18px;
+    margin-bottom: 5px;
+    font-size: 80%;
+}
